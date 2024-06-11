@@ -83,3 +83,12 @@ Note:
 ```sh
 docker-compose exec backend bench --site <site-name> migrate
 ```
+## List Apps 
+
+Note:
+
+- You can see the installed apps on your site
+
+```sh
+docker-compose exec backend bench --site <site-name> list-apps
+```
